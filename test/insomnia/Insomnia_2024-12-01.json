@@ -1,0 +1,200 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-12-01T17:16:03.296Z",
+    "__export_source": "insomnia.desktop.app:v10.2.0",
+    "resources": [
+      {
+        "_id": "req_e78c2901513848da8f318e015997013d",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733072848350,
+        "created": 1733072781638,
+        "url": "http://localhost:3003/api/lists/674c96aa4270975a38de43d2",
+        "name": "/api/lists/{id}",
+        "description": "",
+        "method": "DELETE",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/10.2.0"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1733072781638,
+        "isPrivate": false,
+        "pathParameters": [],
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "parentId": null,
+        "modified": 1733070828254,
+        "created": 1733070828254,
+        "name": "My Collection",
+        "description": "",
+        "scope": "collection",
+        "_type": "workspace"
+      },
+      {
+        "_id": "req_b2ba91ea543143009dcb0e72038dbcfe",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733072772792,
+        "created": 1733072608833,
+        "url": "http://localhost:3003/api/lists/674c96aa4270975a38de43d2",
+        "name": "/api/lists/{id}",
+        "description": "",
+        "method": "PUT",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n  \"name\": \"Updated List\"\n}\n"
+        },
+        "parameters": [],
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "User-Agent",
+            "value": "insomnia/10.2.0"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1733072608833,
+        "isPrivate": false,
+        "pathParameters": [],
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_80be80ee5ad54ca1b876b71d6c6cfd9a",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733072601650,
+        "created": 1733072523465,
+        "url": "http://localhost:3003/api/lists",
+        "name": "/api/lists",
+        "description": "",
+        "method": "POST",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n  \"name\": \"New List\"\n}\n"
+        },
+        "parameters": [],
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "User-Agent",
+            "value": "insomnia/10.2.0"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1733072523465,
+        "isPrivate": false,
+        "pathParameters": [],
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_6abc7f3c048f402e823979e3311f5e21",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733072518159,
+        "created": 1733071238907,
+        "url": "http://localhost:3003/api/lists/674248acc2f0e9e3176d60dd",
+        "name": "/api/lists/{id}",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/10.2.0"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1733071238907,
+        "isPrivate": false,
+        "pathParameters": [],
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_c4e3f78b6aa3400295428608cbb25a1e",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733071289662,
+        "created": 1733070855679,
+        "url": "http://localhost:3003/api/lists",
+        "name": "/api/lists",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [
+          {
+            "name": "User-Agent",
+            "value": "insomnia/10.2.0"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1733070855679,
+        "isPrivate": false,
+        "pathParameters": [],
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "env_60078e1c131be483c390e219b47bc8953e29a0dc",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733070828255,
+        "created": 1733070828255,
+        "name": "Base Environment",
+        "data": {},
+        "dataPropertyOrder": null,
+        "color": null,
+        "isPrivate": false,
+        "metaSortKey": 1733070828255,
+        "environmentType": "kv",
+        "_type": "environment"
+      },
+      {
+        "_id": "jar_60078e1c131be483c390e219b47bc8953e29a0dc",
+        "parentId": "wrk_8370a0dd2cbc4e6d899063d7d1437419",
+        "modified": 1733070828257,
+        "created": 1733070828257,
+        "name": "Default Jar",
+        "cookies": [],
+        "_type": "cookie_jar"
+      }
+    ]
+  }  
