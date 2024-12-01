@@ -9,6 +9,17 @@ exports.getLists = async (req, res) => {
   }
 };
 
+exports.getList = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const list = await List.findById(id);
+    if (!list) return res.status(404).json({ error: 'List not found' });
+    res.json(list);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch list' });
+  }
+};
+
 exports.createList = async (req, res) => {
     const { name } = req.body;
     if (!name) {
